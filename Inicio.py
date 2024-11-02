@@ -81,7 +81,7 @@ st.image(image)
 os.environ['OPENAI_API_KEY'] = st.secrets["settings"]["key"]
 
 # Cargar y procesar PDF
-pdfFileObj = open('example2.pdf', 'rb')
+pdfFileObj = open('Temperaturas.pdf', 'rb')
 pdf_reader = PdfReader(pdfFileObj)
 text = ""
 for page in pdf_reader.pages:
